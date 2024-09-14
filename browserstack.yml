@@ -1,0 +1,17 @@
+userName: {{ YOUR_USER_NAME }}
+accessKey: {{ YOUR_KEY }}
+framework: robot
+app: bs://dae1b1eb081bf20e19579f77fa7b69227d7cafe6
+platforms:
+  - platformName: android
+    deviceName: Samsung Galaxy S22 Ultra
+    platformVersion: 12.0
+  - platformName: android
+    deviceName: Samsung Galaxy Tab S9
+    platformVersion: 13.0
+  - platformName: android
+    deviceName: Google Pixel 7 Pro
+    platformVersion: 13.0
+browserstackLocal: false
+buildName: demo-first-browserStack
+projectName: BrowserStack Demo
