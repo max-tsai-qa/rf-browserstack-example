@@ -1,7 +1,7 @@
 userName: {{ YOUR_USER_NAME }}
 accessKey: {{ YOUR_KEY }}
 framework: robot
-app: bs://dae1b1eb081bf20e19579f77fa7b69227d7cafe6
+app: {{ YOUR_APP }}
 platforms:
   - platformName: android
     deviceName: Samsung Galaxy S22 Ultra
@@ -13,5 +13,8 @@ platforms:
     deviceName: Google Pixel 7 Pro
     platformVersion: 13.0
 browserstackLocal: false
-buildName: demo-first-browserStack
+buildName: demo-browserStack
 projectName: BrowserStack Demo
+appProfiling: true
+debug: true
+networkLogs: true

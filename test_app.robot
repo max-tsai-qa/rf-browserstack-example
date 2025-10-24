@@ -9,9 +9,12 @@ ${REMOTE_URL}     https://hub-cloud.browserstack.com/wd/hub
 *** Test Cases ***
 Test Browserstack
     Open Application    ${REMOTE_URL}
-    Click Page Element    //android.widget.FrameLayout[@content-desc="My lists"]
-    Click Page Element    //android.widget.FrameLayout[@content-desc="History"]
-    Click Page Element    //android.widget.FrameLayout[@content-desc="Nearby"]
+    Click Page Element    //android.widget.Button[@resource-id="org.wikipedia.alpha:id/fragment_onboarding_forward_button"]
+    Click Page Element    //android.widget.Button[@resource-id="org.wikipedia.alpha:id/fragment_onboarding_forward_button"]
+    Click Page Element    //android.widget.Button[@resource-id="org.wikipedia.alpha:id/fragment_onboarding_forward_button"]
+    Click Page Element    //android.widget.Button[@resource-id="org.wikipedia.alpha:id/fragment_onboarding_done_button"]
+    Click Page Element    //android.widget.FrameLayout[@content-desc="Saved"]
+    Click Page Element    //android.widget.FrameLayout[@content-desc="Search"]
     Click Page Element    //android.widget.FrameLayout[@content-desc="Explore"]
 
 *** Keywords ***
